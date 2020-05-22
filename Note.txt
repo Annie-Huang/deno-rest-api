@@ -64,3 +64,8 @@ C:\Users\Annie\.deno\bin\file_server.cmd
 
 C:\Users\Annie>file_server
 HTTP server listening on http://0.0.0.0:4507/
+
+===============================
+
+C:\react\deno-rest-api>deno run hello.ts
+
