@@ -1,0 +1,66 @@
+https://deno.land/manual/getting_started/installation
+
+https://deno.land/std				<<< All the standard library
+https://deno.land/std/examples/welcome.ts
+https://deno.land/std/examples/colors.ts
+https://deno.land/std/http/file_server.ts
+
+
+==================================================================
+
+Install:
+iwr https://deno.land/x/install/install.ps1 -useb | iex
+
+PS C:\Users\Annie> deno --help
+
+OPTIONS:
+    -h, --help
+            Prints help information
+
+    -L, --log-level <log-level>
+            Set log level [possible values: debug, info]
+
+    -q, --quiet
+            Suppress diagnostic output
+            By default, subcommands print human-readable diagnostic messages to stderr.
+            If the flag is set, restrict these messages to errors.
+    -V, --version
+            Prints version information
+
+SUBCOMMANDS:
+    bundle         Bundle module and dependencies into single file
+    cache          Cache the dependencies
+    completions    Generate shell completions
+    doc            Show documentation for a module
+    eval           Eval script
+    fmt            Format source files
+    help           Prints this message or the help of the given subcommand(s)
+    info           Show info about cache or info related to source file
+    install        Install script as an executable
+    repl           Read Eval Print Loop
+    run            Run a program given a filename or url to the module
+    test           Run tests
+    types          Print runtime TypeScript declarations
+    upgrade        Upgrade deno executable to given version
+
+ENVIRONMENT VARIABLES:
+    DENO_DIR             Set deno's base directory (defaults to $HOME/.deno)
+    DENO_INSTALL_ROOT    Set deno install's output directory
+                         (defaults to $HOME/.deno/bin)
+
+
+
+C:\Users\Annie>deno run https://deno.land/std/examples/welcome.ts	<<< You can run the script directly
+C:\Users\Annie>curl https://deno.land/std/examples/welcome.ts
+C:\Users\Annie>deno run https://deno.land/std/examples/colors.ts
+C:\Users\Annie>deno run https://deno.land/std/http/file_server.ts
+C:\Users\Annie>deno run --allow-read --allow-net https://deno.land/std/http/file_server.ts
+HTTP server listening on http://0.0.0.0:4507/
+
+C:\Users\Annie>deno install --allow-read --allow-net https://deno.land/std/http/file_server.ts
+...
+✅ Successfully installed file_server
+C:\Users\Annie\.deno\bin\file_server.cmd
+
+C:\Users\Annie>file_server
+HTTP server listening on http://0.0.0.0:4507/
