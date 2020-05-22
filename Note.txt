@@ -76,7 +76,7 @@ C:\react\deno-rest-api>deno run dateTime.ts
 C:\react\deno-rest-api>deno run createFile.ts                   << this one will not compile
 C:\react\deno-rest-api>deno run --allow-write createFile.ts
 
-
+C:\react\deno-rest-api>deno run --allow-read readFile.ts
 
 
 
