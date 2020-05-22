@@ -86,6 +86,12 @@ http://localhost:8000/
 ===============================
 
 C:\react\deno-rest-api>deno run --allow-net server.ts
+...
+Server running on port 5000
+error: Uncaught TypeError: There is no middleware to process requests.
+        new TypeError("There is no middleware to process requests."),
+
+
 
 
 
