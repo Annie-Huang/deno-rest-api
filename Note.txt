@@ -72,3 +72,15 @@ C:\react\deno-rest-api>deno run hello.ts
 No intellij plugin for Deno yet.
 
 C:\react\deno-rest-api>deno run dateTime.ts
+
+C:\react\deno-rest-api>deno run createFile.ts                   << this one will not compile
+C:\react\deno-rest-api>deno run --allow-write createFile.ts
+
+
+
+
+
+
+
+
+
