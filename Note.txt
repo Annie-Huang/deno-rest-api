@@ -5,6 +5,7 @@ https://deno.land/std/examples/welcome.ts
 https://deno.land/std/examples/colors.ts
 https://deno.land/std/http/file_server.ts
 https://deno.land/std/datetime/mod.ts
+https://deno.land/std/http
 
 ==================================================================
 
@@ -78,6 +79,8 @@ C:\react\deno-rest-api>deno run --allow-write createFile.ts
 
 C:\react\deno-rest-api>deno run --allow-read readFile.ts
 
+C:\react\deno-rest-api>deno run --allow-net simpleServer.ts
+http://localhost:8000/
 
 
 
