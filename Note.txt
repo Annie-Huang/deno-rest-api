@@ -4,7 +4,7 @@ https://deno.land/std				<<< All the standard library
 https://deno.land/std/examples/welcome.ts
 https://deno.land/std/examples/colors.ts
 https://deno.land/std/http/file_server.ts
-
+https://deno.land/std/datetime/mod.ts
 
 ==================================================================
 
@@ -69,3 +69,6 @@ HTTP server listening on http://0.0.0.0:4507/
 
 C:\react\deno-rest-api>deno run hello.ts
 
+No intellij plugin for Deno yet.
+
+C:\react\deno-rest-api>deno run dateTime.ts
