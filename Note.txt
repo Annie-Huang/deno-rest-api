@@ -83,7 +83,9 @@ C:\react\deno-rest-api>deno run --allow-net simpleServer.ts
 http://localhost:8000/
 
 
+===============================
 
+C:\react\deno-rest-api>deno run --allow-net server.ts
 
 
 
