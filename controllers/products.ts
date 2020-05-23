@@ -1,9 +1,4 @@
-interface Product {
-    id: string;
-    name: string;
-    description: string;
-    price: number;
-}
+import { Product } from '../types.ts';
 
 let products: Product[] = [
     {
