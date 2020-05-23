@@ -1,3 +1,7 @@
+Deno Crash Course
+https://www.youtube.com/watch?v=NHHhiqwcfRM&t=1583s
+https://github.com/Annie-Huang/deno-rest-api
+
 https://deno.land/manual/getting_started/installation
 
 https://deno.land/std				<<< All the standard library
