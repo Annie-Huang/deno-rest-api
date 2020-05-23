@@ -6,8 +6,10 @@ https://deno.land/std/examples/colors.ts
 https://deno.land/std/http/file_server.ts
 https://deno.land/std/datetime/mod.ts
 https://deno.land/std/http
+https://deno.land/std/uuid/mod.ts
 
-==================================================================
+Everytime you make a file change, you will need to restart the server.
+===========================================================================
 
 Install:
 iwr https://deno.land/x/install/install.ps1 -useb | iex
